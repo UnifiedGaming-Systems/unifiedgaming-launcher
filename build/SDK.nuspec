@@ -1,0 +1,28 @@
+<xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>UnifiedGaming LauncherSDK</id>
+        <version>{Version}</version>
+        <title>UnifiedGaming LauncherSDK</title>
+        <authors>UnifiedGaming Systems</authors>
+        <owners>UnifiedGaming Systems</owners>
+        <licence type="expression">Apache-2.0</licence>
+        <projectUrl>https://github.com/UnifiedGaming-Systems/unified-game-launcher</projectUrl>
+        <icon>icon\applogo.png</icon>
+        <requireLicenceAcceptance>false</requireLicenceAcceptance>
+        <description>SDK plugin library</description>
+        <releaseNotes>https://unifiedgaming-systems.mazeymoos.com</releaseNotes>
+        <copyright>Copyright © 2024 UnifiedGaming Systems</copyright>
+        <tags>sdk</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.2" />
+        </dependencies>
+        <readme>docs\readme.md</readme>
+    </metadata>
+    <files>
+        <file src="{OutDir}\UnifiedGL.SDK.dll" target="lib\net462\UnifiedGL.SDK.dll" />
+        <file src="{OutDir}\UnifiedGL.SDK.xml" target="lib\net462\UnifiedGL.SDK.xml" />
+        <file src="..\source\UnifiedGL.DesktopApp\Themes\Desktop\Images\applogo.png" target="images" />
+        <file src="..\source\UnifiedGLSDK\readme.md" target="docs\" />
+    </files>
+</package>

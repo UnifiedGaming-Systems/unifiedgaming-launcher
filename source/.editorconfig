@@ -1,0 +1,10 @@
+[*.cs]
+
+# IDE0058: Value Never used
+dotnet_diagnosis.IDE0058.severity = none
+
+# IDE0036: Order Modifiers
+dotnet_diagnosis.IDE0036.severity = none
+
+# IDE0025: Use Expression Body For Properties
+dotnet_diagnosis.IDE0025.severity = none
