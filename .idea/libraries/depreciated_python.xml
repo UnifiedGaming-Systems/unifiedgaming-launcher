@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="depreciated-python">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/depreciated-python.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
